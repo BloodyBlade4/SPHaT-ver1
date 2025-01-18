@@ -1,0 +1,8 @@
+[wokwi]
+version=1
+firmware='.pio/build/megaatmega2560/firmware.hex'
+elf='.pio/build/megaatmega2560/firmware.elf'
+
+[[chip]]
+name = 'lm75a'
+binary='dist/lm75a.wasm'
