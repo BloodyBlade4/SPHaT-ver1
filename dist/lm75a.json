@@ -1,0 +1,27 @@
+{
+    "name": "lm75a",
+    "author": "Anderson Costa",
+    "pins": [
+      "OS",
+      "SCL",
+      "SDA",
+      "VCC",
+      "GND",
+      "A0",
+      "A1",
+      "A2",
+      "",
+      ""
+    ],
+    "controls": [
+      {
+        "id": "temperature",
+        "label": "LM75A Temperature",
+        "type": "range",
+        "min": -55,
+        "max": 125,
+        "step": 0.125
+      }
+    ]
+  }
+  
